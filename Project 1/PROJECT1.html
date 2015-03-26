@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- Internet Exploer perfers <!DOCTYPE html> to be before any comments -->
+
+<!--Project 1: Making your own website;
+By: Edwin Cordova
+The following is my HTML file-->
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> Project Stage 1: Making your Own Website</title>
+</head>
+<body>
+	<h1 class="Project1">
+		<b>Udacity Nano-degree</b><br>
+		<b>Important Concepts Overview</b><br>
+	</h1>
+<!--The following is leason 1 HTML code -->
+	<div class="leason1">
+		<div class="leason1-title">
+			<b>Lesson 1: The Basics of the Web and HTML</b>
+		</div>
+		<div class="Inlinetableframe-outside">
+			<div class="Inline-table-title">
+						<b> INLINE TYPE </b>
+			</div>
+			<div class="Inlinetableframe-inside">
+				<div class="Inline-column1">
+		  			<div class= "Inline-example1">
+			  			&lt; b &gt; text &lt; /b &gt;
+			  		</div>
+			  		<div class= "Inline-example2">
+			  			&lt; em &gt; text &lt; /em &gt; 
+			  		</div>
+			  		<div class= "Inline-example3">
+				  		&lt; a href = "URL" &gt; text &lt; /a &gt;
+			  		</div>
+			  		<div class= "Inline-example4">
+			  			<br><br>
+				  		&lt; img src = "image location" alt = "text in case image doesnt load" &gt;
+				  	</div>
+				  	<div class= "Inline-example5">
+				  		text &lt; br &gt; text
+				  		<br><br>
+				  	</div>
+				  	<div class= "Inline-example6">
+				  		&lt; span class = "CSS/JSS" &gt; text &lt; /span &gt;
+					</div>
+				</div>
+				<div class="Inline-column2">
+		  			<div class= "Inline-def1">
+			  		Allows for <b>BOLD</b> text
+			  		</div>
+			  		<div class= "Inline-def2">
+			  			Allows for <b><em>ITALIC</em></b> text
+			  		</div>
+			  		<div class= "Inline-def3">
+				  		Allows to add <a href = "https://www.udacity.com/"> links</a> to websites
+			  		</div>
+			  		<div class= "Inline-def4">
+				  		Allows insertion of images,<img src="images/logo.png" alt="UDACITY logo">
+				  	</div>
+				  	<div class= "Inline-def5">
+				  		Allows to make text<br>
+				  		move down one line
+				  	</div>
+				  	<div class= "Inline-def6">
+				  		Allows the grouping the of INLINE elements and adding hooks to text like <b><span style="color:blue">COLOR</span></b>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="Blocktableframe-outside">
+			<div class="Inline-table-title">
+						<b> BLOCK TYPE </b>
+			</div>
+			<div class="Blocktableframe-inside">
+				<div class="Block-column1">
+		  			<div class= "Inline-example1">
+			  			&lt; p &gt; text &lt; /p &gt;
+			  		</div>
+			  		<div class= "Block-example2">
+			  			&lt; div class = "CSS tag" &gt; text &lt; /div &gt; 
+			  		</div>
+			  		<div class= "Block-example3">
+
+			  			&lt; form &gt; text &lt; /form &gt;  <b>USER INPUT BOX</b>
+			  		</div>	
+				</div>
+				<div class="Block-column2">
+		  			<div class= "Block-def1">
+			  		Allows for a paragraph of text that can be manipulated with attributes
+			  		</div>
+			  		<div class= "Block-def2">
+			  			Allows for the grouping of elements to be formated with CSS <div class="example-div" >attributes</div>
+			  		</div>
+			  		<div class= "Block-def3">	  		
+						<form action="example.asp">
+							First name: <input type="text" name="FirstName" value=""><br>
+							Last name: <input type="text" name="LastName" value=""><br>
+							<input type="submit" value="Submit">
+						</form>
+			  		</div>
+				</div>
+			</div>
+		</div>
+<!--The following is leason 2 HTML code -->
+	<div class="leason2">
+		<div class="leason2-title">
+			<b>Lesson 2: Creating a Structured Document with HTML</b>
+		</div>
+		<div class="Leason2-frame">
+			<div class="Info1-frame">
+				<p><b>HTML</b> - <b><em>HYPERTEXT MARKUP LANGUAGE</em></b> - 		Standard markup language used to create web pages. 
+				</p>
+				<p><b>CSS</b> - <b><em>CASCADING STYLE SHEETS</em></b> - Style sheet lauguage used for describing the look and formatting of a document written in a markup laguange.
+				</p>
+				<p><b>DOM</b> - <b><em>DOCUMENT OBJECT MODEL</em></b> - A cross-platform and language-indpendent convention for representing and interacting with objects in HTML (and other markup languages). The nodes of every document are organized in a tree structure, called the <b>DOM TREE</b>.
+			</div>
+			<div class="Info2-frame">
+				<p> Drawing boxes to make the base layout of your website is very important.  It will help define how many and how to nest your &lt; div &gt;<br> &lt; /div &gt; tags. 
+				<div class="leason2-picture2">
+					<img src="images/mockup.png" alt="Mockup of base formating for website"> 	
+				</div>
+			</div>
+		</div>
+	</div>
+<!--The following is leason 3 HTML code -->
+	<div class="leason3">
+		<div class="leason3-title">
+			<b>Lesson 3: Adding CSS Style to HTML Structure</b>
+		</div>
+		<div class="Leason3-frame">
+			<div class="Info3-frame">
+				<div class="Info3-title">
+					Three ways to add <b>CSS Styling</b> into your HTML structure.<br><br>
+				</div>
+				<p><b>First</b> method is at the top of the code is to add a &lt; head &gt; element and a &lt; style &gt; element. Then write all the css in the &lt; style &gt; element. <br><br>
+					<b>Second</b> method is to write all your structure <b>HTML</b> in one file.  In a seperate file to put all your <b>CSS</b> code. Add a &lt; head &gt; element at the top of your <b>HTML</b> file and add a <br>&lt; link &gt; tag inside the &lt; head &gt; element.<br><br>
+					<b>Third</b> method is to write your style inline with your <b>HTML</b><br></p>
+			</div>
+		</div>
+	</div>
+<!-- Code given by the W3C website's CSS validator-->	
+	<p>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+		    <img style="border:0;width:88px;height:31px"
+		        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+		        alt="Valid CSS!" />
+		</a>
+	</p>
+	</div>
+</body>
+</html>
