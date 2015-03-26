@@ -1,0 +1,229 @@
+/* 
+Project 1: Making your own website;
+By: Edwin Cordova
+The following is my CSS file*/
+
+/*he following is leason 1 CSS code */
+.leason1-title {
+	outline: 5px solid red;
+	font-size: 42px;
+	margin: 5px;
+	text-align: center;
+}
+.Inlinetableframe-outside{
+	outline:20px solid black;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-spacing: 10px;
+}
+.Inlinetableframe-inside{
+	outline:10px solid black;
+	margin-bottom: 15px;
+	margin-top: 20px;
+	border-spacing: 10px;
+	display:flex;
+}
+.Inline-table-title{
+	background-color: yellow;
+	color: black;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.Inline-column1{
+	outline: 10px solid red;
+	font-size: 18px;
+  	margin:5px;
+  	float:left;
+}
+.Inline-column2{
+	outline: 10px solid blue;
+	font-size: 18px;
+	margin-top:5px;
+	margin-bottom:5px;
+  	margin-right:0px;
+  	margin-left: 16px;
+  	float:right;
+}
+.Inline-example1{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Inline-example2{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Inline-example3{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Inline-example4{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Inline-example5{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Inline-example6{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Inline-def1{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Inline-def2{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Inline-def3{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Inline-def4{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Inline-def5{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Inline-def6{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Blocktableframe-outside{
+	outline:20px solid black;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-spacing: 10px;
+}
+.Blocktableframe-inside{
+	outline:10px solid black;
+	margin-bottom: 15px;
+	margin-top: 20px;
+	border-spacing: 10px;
+	display:flex;
+}
+.Block-table-title{
+	background-color: yellow;
+	color: black;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.Block-column1{
+	outline: 10px solid red;
+	font-size: 18px;
+  	margin:5px;
+  	float:left;
+}
+.Block-column2{
+	outline: 10px solid blue;
+	font-size: 18px;
+	margin-top:5px;
+	margin-bottom:5px;
+  	margin-right:0px;
+  	margin-left: 16px;
+  	float:right;
+}
+.Block-example1{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Block-example2{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Block-example3{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Block-def1{
+	outline: 1px solid black;
+	font-size: 18px;
+	color: red;
+}
+.Block-def2{
+	outline: 1px solid black;
+	font-size: 18px;
+}
+.Block-def3{
+	outline: 1px solid black;
+}
+.example-div{
+	font-size: 42px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 50px;
+	margin-right: 75%;
+	background-color: black;
+	color: yellow;
+}
+/*he following is leason 2 CSS code */
+.leason2-title{
+	outline: 5px solid red;
+	font-size: 42px;
+	margin: 5px;
+	text-align: center;
+}
+.Leson2-frame{
+	outline:20px solid black;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-spacing: 10px;
+}
+.Info1-frame{
+	outline:10px solid black;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-spacing: 10px;
+}
+.Info2-frame{
+	outline:10px solid black;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-spacing: 10px;
+	display:flex;
+}
+/*he following is leason 3 CSS code */
+.leason3-title{
+	outline: 5px solid red;
+	font-size: 42px;
+	margin: 5px;
+	text-align: center;
+}
+.Leson3-frame{
+	outline:20px solid black;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-spacing: 10px;
+}
+.Info3-frame{
+	outline:10px solid black;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-spacing: 10px;
+}
+.Info3-title{
+	font-size: 30px;
+	text-align: center;
+	color:blue; 
+}
+
+element.style{
+	display: flex;
+}
